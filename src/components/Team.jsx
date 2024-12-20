@@ -1,8 +1,8 @@
 import React from 'react';
 import "../styles/Team.css";
-import team1 from '../assets/images/team1.jpg';
-import team2 from '../assets/images/team2.jpg';
-import team3 from '../assets/images/team3.jpg';
+import team1 from '../assets/team1.jpg';
+import team2 from '../assets/team2.jpg';
+import team3 from '../assets/team3.jpg';
 import "@fontsource/montserrat";
 import "@fontsource/source-sans-pro";
 
