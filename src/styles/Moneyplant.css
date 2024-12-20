@@ -1,0 +1,136 @@
+.container {
+  background-color: #f9fcff;
+
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.testimonial {
+  background-color: #f5f9ff;
+  padding: 20px;
+
+
+}
+
+.testimonial-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.testimonial-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #001b3a;
+}
+
+.testimonial-navigation {
+  display: flex;
+gap: 15px;
+}
+
+.navigation-button {
+  background-color: #005e8d;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+}
+
+.navigation-button:hover {
+  background-color: #35659c;
+}
+
+.testimonial-card {
+  background-color: #ffffff;
+  padding: 15px;
+  
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 328px;
+  margin: 0 auto;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.testimonial-name {
+  font-weight: bold;
+  color: #001b3a;
+  margin: 0;
+}
+
+.testimonial-role {
+  font-size: 14px;
+  color: gray;
+  margin: 0;
+}
+
+.testimonial-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+color: gray;
+  line-height:19px;
+  text-align: left; /* Aligns text to the left */
+}
+
+
+.donation {
+  text-align: left;
+  padding: 20px;
+  background-color: #ffffff;
+  
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.donation-image {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 10px;
+ 
+}
+
+.donation-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #001b3a;
+
+}
+
+.donation-text {
+  font-size: 14px;
+  color: #43444f;
+  margin-bottom: 20px;
+}
+
+.donate-button {
+  background-color: #dfa100;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.donate-button:hover {
+  background-color: #c89000;
+}

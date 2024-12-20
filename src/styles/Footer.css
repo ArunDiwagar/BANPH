@@ -1,0 +1,85 @@
+.footer-container {
+ 
+  height: 150px;
+  background-color: #063B6E;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #063B6E;  /* Add subtle border around the whole container */
+  opacity: 1; /* Ensure visibility */
+}
+
+.footer-header {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  line-height: 20.11px;
+  margin-left: 10px;
+  color: #FFFFFF;
+  border-bottom: 0.5px solid #044b8e; /* Subtle border below the header */
+  padding-bottom: 8px;  
+  
+  /* Padding to separate from the next section */
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: #A1B0BE;
+  height: 51px;
+  width: 325px;
+  margin-left: 10px;
+  border-bottom: 1px solid #044b8e; /* Subtle border below the links */
+  padding-bottom: 8px;
+  opacity: 1; /* Padding to separate from the footer bottom */
+}
+
+.footer-links a {
+  color: #A1B0BE;
+  text-decoration: none;
+  margin-bottom: 4px; /* Adds spacing for better wrap appearance */
+  white-space: nowrap;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  align-items: center;
+  height: 18px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  display: flex;
+  color: #A1B0BE;
+  height: 20px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  margin-left: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  line-height: 15.08px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 8px;
+}
+
+.icon {
+  cursor: pointer;
+  width: 14px;
+  height: 14px;
+}
+
+.icon:hover {
+  color: #1e90ff; /* Change to a lighter blue on hover */
+}
