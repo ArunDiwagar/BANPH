@@ -1,0 +1,42 @@
+/* HeroSection styles */
+.hero-section {
+    padding: 1rem;
+    background: linear-gradient(to top ,#034546 80%,transparent 50%);
+  }
+  
+  .hero-section img {
+    width: 328px;
+    height: 300px;
+    border-top-left-radius: 5px; 
+    border-top-right-radius: 80px; 
+  }
+  
+  .hero-section h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #FFFFFF;
+ 
+  }
+  
+  .hero-section p {
+    font-size:small;
+    color: #BFECEB;
+    margin-top: 0.5rem;
+    line-height:20px;
+    
+  }
+  
+  .hero-section button {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background: rgba(223, 161, 0, 1);
+    color: white;
+    font-weight:normal;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .hero-section button:hover {
+    background-color: #D97706; 
+  }

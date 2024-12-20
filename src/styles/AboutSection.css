@@ -1,0 +1,26 @@
+/*AboutSection  styles*/
+
+.about-section {
+  padding: 1rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.about-section h2 {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #001B3A;
+}
+
+.about-section p {
+  font-size: 14px;
+  color: rgba(67, 68, 79, 1);
+  line-height: 20px;
+  margin: 0; 
+
+}

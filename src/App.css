@@ -7,3 +7,9 @@
 body {
   font-family: "Montserrat";
 }
+.container {
+  font-family:'Source Sans Pro',sans-serif;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+}
