@@ -2,12 +2,12 @@
  
   height: 150px;
   background-color: #063B6E;
-  padding: 16px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  border: 1px solid #063B6E;  /* Add subtle border around the whole container */
-  opacity: 1; /* Ensure visibility */
+  justify-content: space-around;
+  border: 1px solid #063B6E;  
+  opacity: 1;
 }
 
 .footer-header {
@@ -19,10 +19,9 @@
   line-height: 20.11px;
   margin-left: 10px;
   color: #FFFFFF;
-  border-bottom: 0.5px solid #044b8e; /* Subtle border below the header */
+  border-bottom: 0.5px solid #044b8e; 
   padding-bottom: 8px;  
   
-  /* Padding to separate from the next section */
 }
 
 .footer-links {
@@ -35,15 +34,15 @@
   height: 51px;
   width: 325px;
   margin-left: 10px;
-  border-bottom: 1px solid #044b8e; /* Subtle border below the links */
+  border-bottom: 1px solid #044b8e; 
   padding-bottom: 8px;
-  opacity: 1; /* Padding to separate from the footer bottom */
+  opacity: 1;
 }
 
 .footer-links a {
   color: #A1B0BE;
   text-decoration: none;
-  margin-bottom: 4px; /* Adds spacing for better wrap appearance */
+  margin-bottom: 4px; 
   white-space: nowrap;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
@@ -81,5 +80,5 @@
 }
 
 .icon:hover {
-  color: #1e90ff; /* Change to a lighter blue on hover */
+  color: #1e90ff; 
 }

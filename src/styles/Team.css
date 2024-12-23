@@ -4,7 +4,6 @@ body {
 }
 
 .team-container {
-
   margin: 0 auto;
   padding: 16px;
   background-color: #ffffff;
@@ -17,7 +16,7 @@ body {
   color: #000000;
   margin-bottom: 8px;
   text-align: start;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 17px;
   width: 87px;
@@ -25,88 +24,96 @@ body {
 }
 
 .team-container p {
-  font-size: 14px;
-  color: #43444F;
-  font-family: 'Source Sans Pro', sans-serif;
-  line-height: 18.9px;
+  font-size: 12px;
+  color: #43444f;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 12px;
   text-align: start;
-  
 }
 
 .team-members {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-  justify-content: flex-start; /* Align team members to the left */
+  justify-content: flex-start;
+  
 }
 
 .team-member {
-  flex: 0 1 calc(38% - 4px); /* Adjusted to 42% to leave space for gaps */
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align all content to the left */
-  background: linear-gradient(to top, #FFF5F5 70%, transparent 50%); /* Apply gradient background */
-  padding: 12px;
+  align-items: flex-start;
+  padding-left: 10px;
+  background: linear-gradient(
+    to top,
+    #fff5f5 70%,
+    transparent 50%
+  ); 
+ 
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .team-member.full-width {
-  flex: 0 1 100%; /* Michael Lee takes the full width of the row */
+  flex: 0 1 100%; 
 }
 
 .member-image-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align image to the left */
+  align-items: flex-start;
+
 }
 
 .member-image {
-  width: 90px; /* Image size reduced */
+  width: 90px; 
   height: 90px;
-  border-radius: 50%; /* Make image circular */
+  
   object-fit: cover;
-  margin-bottom: 8px; /* Ensure space between image and text */
+  margin-bottom: 8px; 
   border: 2px solid #ccc;
+  border-top-left-radius: 55px;
+  border-top-right-radius: 55px;
+  border-bottom-right-radius: 55px;
 }
 
 .team-member h3 {
   font-size: 16px;
-  color: #43444F;
-  margin: 0; /* Remove margin to prevent extra space */
+  color: #43444f;
+  margin: 0;
   line-height: 20.11px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
-  text-align: left; /* Align name to the left */
+  text-align: left; 
 }
 
 .teamname {
   font-size: 12px;
   line-height: 15.08px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   color: #555;
-  margin: 0; /* Remove margin to prevent extra space */
-  text-align: left; /* Align title to the left */
+  margin: 0;
+  text-align: left; 
 }
 
 .teamnamedes {
   font-size: 13px;
   line-height: 16.09px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
-  color: #43444F;
-  width: 100%; /* Allow text to occupy full width */
+  color: #43444f;
+  width: 100%;
   margin-top: 4px;
-  word-wrap: break-word; /* Allow long words to wrap */
-  white-space: normal; /* Ensure text wraps instead of overflowing */
-  text-align: left; /* Align description to the left */
+  word-wrap: break-word;
+  white-space: normal;
+  text-align: left; 
 }
 
 .team-member .member-info {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align all content to the left */
+  align-items: flex-start; 
   justify-content: space-between;
-  gap: 8px; /* Add some space between name, title, and description */
+  gap: 8px;
 }
