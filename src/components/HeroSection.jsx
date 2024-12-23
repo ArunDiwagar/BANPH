@@ -9,7 +9,7 @@ const HeroSection = () => {
         alt="Mentor and Student"
       />
       <div className="mt-4">
-        <h1>Ready to Launch your Tech Career?</h1>
+        <h1>Ready to Launch your Tech Carrier?</h1>
         <p>
           Turn ideas into reality with our Full Stack Web Development program—
           designed to take you from beginner to pro, regardless of your background.

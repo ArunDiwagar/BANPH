@@ -9,32 +9,40 @@
     height: 300px;
     border-top-left-radius: 5px; 
     border-top-right-radius: 80px; 
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
   }
   
   .hero-section h1 {
+ line-height:20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
-    font-weight: 700;
+    font-weight: 500;
     color: #FFFFFF;
  
   }
   
   .hero-section p {
-    font-size:small;
+    font-size:13.2px;
     color: #BFECEB;
     margin-top: 0.5rem;
-    line-height:20px;
+    line-height:18px;
+    width: 305px;
+    font-family: 'Souce Sans Pro',sans-serif;
     
   }
   
   .hero-section button {
+    text-align: left;
     margin-top: 1rem;
     padding: 10px 20px;
     background: rgba(223, 161, 0, 1);
     color: white;
-    font-weight:normal;
+    font-weight: normal;
     border-radius: 20px;
     cursor: pointer;
+    border: none;
+  
   }
   
   .hero-section button:hover {
