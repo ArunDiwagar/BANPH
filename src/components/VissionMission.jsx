@@ -1,5 +1,5 @@
 import React from "react";
-import { LuTelescope } from "react-icons/lu";
+import "../styles/VisionMission.css"
 
 const VisionMissionSection = () => {
   return (

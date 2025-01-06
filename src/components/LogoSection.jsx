@@ -1,8 +1,9 @@
 import React from "react";
-import logo1 from "../img/logo1.png";
-import logo2 from "../img/logo2.jpg";
-import logo3 from "../img/logo3.jpg";
-import logo4 from "../img/logo4.png";
+import logo1 from "../assets/logo1.png";
+import logo2 from "../assets/logo2.jpg";
+import logo3 from "../assets/logo3.jpg";
+import logo4 from "../assets/logo4.png";
+import "../styles/Logo.css"
 
 const LogoSection = () => {
   return (
