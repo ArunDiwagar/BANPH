@@ -1,0 +1,14 @@
+/* Logo Section */
+.logo-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 1px;
+    background-color: white;
+    width: 357px;
+    height: 15px;
+  }
+  
+  .logo {
+    padding-left: 16px;
+    
+  }

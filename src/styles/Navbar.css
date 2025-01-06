@@ -1,0 +1,28 @@
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 15px;
+    background-color: #FFFFFF;
+    color: #003262;
+  }
+  
+  .navbar-title {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 24px;
+    line-height: 20.11px;
+    font-weight: 600;
+  }
+  
+  .menu-button {
+    background: none;
+    border: none;
+  }
+  
+  .menu-icon {
+    width: 24px;
+    height: 24px;
+  }
+ 

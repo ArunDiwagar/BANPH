@@ -1,0 +1,40 @@
+
+/* Vision & Mission Section */
+
+
+.vision,
+.mission {
+  margin-bottom: 20px;
+  padding: 10px 10px;
+
+}
+.vision{
+  background: #FFEEEE;
+}
+.mission{
+  background: #D7EFFF;
+}
+
+.vision h2,
+.mission h2 {
+  padding-left: 16px;
+  font-size: 17px;
+  margin-bottom: 10px;
+  color: #001B3A;
+  font-family:'Montserrat' , sans-serif;
+  font-weight: 700;
+  line-height: 20.72px;
+
+  
+  
+}
+
+.vision p,
+.mission p {
+padding-left: 16px;
+  width:306px ;
+  font-size: 14px;
+  line-height: 19px;
+  color: #43444F;
+  font-family: 'Source Sans Pro', sans-serif;
+}

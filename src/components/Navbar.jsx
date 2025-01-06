@@ -1,5 +1,6 @@
 import React from "react";
-import menu from "../img/menu.png";
+import menu from"../assets/menu.png";
+import "../styles/Navbar.css"
 
 const Navbar = () => {
   return (

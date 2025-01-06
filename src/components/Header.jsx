@@ -1,6 +1,7 @@
 import React from 'react';
-import i1 from '../img/i1.png';
+import i1 from "../assets/i1.png"
 import { FaArrowRight } from 'react-icons/fa';
+import "../styles/Header.css"
 
 const Header = () => {
   return (
