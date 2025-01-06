@@ -2,7 +2,7 @@
 
 
 .team-container {
-  margin: 0 auto;
+
   padding: 16px;
   background-color: #ffffff;
   border: 1px solid #ddd;
@@ -79,7 +79,7 @@
 .team-member h3 {
   font-size: 16px;
   color: #43444f;
-  margin: 0;
+
   line-height: 20.11px;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
@@ -92,7 +92,7 @@
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   color: #43444f;
-  margin: 0;
+ 
   text-align: left; 
 }
 
