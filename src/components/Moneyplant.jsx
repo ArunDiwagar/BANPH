@@ -18,7 +18,7 @@ const Moneyplant = () => {
         <div className="testimonial-card">
           <div className="card-header">
             <img
-              src="src/assets/manspec.png"
+              src="../assets/manspec.png"
               alt="Profile"
               className="testimonial-image"
             />
@@ -38,7 +38,7 @@ const Moneyplant = () => {
       {/* Donation Section */}
       <div className="donation">
         <img
-          src="src/assets/money.jpg"
+          src="../assets/money.jpg"
           alt="Donation"
           className="donation-image"
         />

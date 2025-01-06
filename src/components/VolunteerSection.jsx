@@ -5,7 +5,7 @@ const VolunteerSection = () => {
   return (
     <section className="volunteer-section">
       <img
-        src="src/assets/img2.png"
+        src="../assets/img2.png"
         alt="Volunteer Illustration"
       />
       <div className="mt-4">

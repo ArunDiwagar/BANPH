@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <section className="hero-section">
       <img
-        src="src/assets/img1.png"
+        src="../assets/img1.png"
         alt="Mentor and Student"
       />
       <div className="mt-4">
