@@ -1,10 +1,8 @@
 /* Team.css */
-body {
-  font-family: "Montserrat";
-}
+
 
 .team-container {
-  margin: 0 auto;
+
   padding: 16px;
   background-color: #ffffff;
   border: 1px solid #ddd;
@@ -24,10 +22,10 @@ body {
 }
 
 .team-container p {
-  font-size: 12px;
+  font-size: 14px;
   color: #43444f;
-  font-family: "Source Sans Pro", sans-serif;
-  line-height: 12px;
+  font-family:'Source Sans Pro',sans-serif;
+  line-height: 18px;
   text-align: start;
 }
 
@@ -40,6 +38,7 @@ body {
 }
 
 .team-member {
+  flex: 0 1 calc( 45% - 6px);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -80,7 +79,7 @@ body {
 .team-member h3 {
   font-size: 16px;
   color: #43444f;
-  margin: 0;
+
   line-height: 20.11px;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
@@ -92,8 +91,8 @@ body {
   line-height: 15.08px;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
-  color: #555;
-  margin: 0;
+  color: #43444f;
+ 
   text-align: left; 
 }
 
@@ -102,7 +101,7 @@ body {
   line-height: 16.09px;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
-  color: #43444f;
+color: #43444f;
   width: 100%;
   margin-top: 4px;
   word-wrap: break-word;
@@ -116,4 +115,5 @@ body {
   align-items: flex-start; 
   justify-content: space-between;
   gap: 8px;
+
 }
