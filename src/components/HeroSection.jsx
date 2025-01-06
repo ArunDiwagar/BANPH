@@ -1,11 +1,12 @@
 import React from 'react';
 import '../styles/HeroSection.css'
+import img1 from "../assets/img1.png"
 
 const HeroSection = () => {
   return (
     <section className="hero-section">
       <img
-        src="../assets/img1.png"
+        src={img1}
         alt="Mentor and Student"
       />
       <div className="mt-4">
